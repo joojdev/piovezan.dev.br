@@ -11,7 +11,7 @@ export default function Button({
 
   return (
     <button className="logoButton" onClick={handleClick}>
-      <img src={children} alt="button logo" />
+      <img draggable={false} src={children} alt="button logo" />
     </button>
   );
 }
