@@ -12,18 +12,15 @@ export default function LoadingText({
   delay?: number;
   href?: string;
 }) {
-  const [text, setText] = useState<string>(createRandomString(children.length));
+  const [text, setText] = useState<string>(createRandomString(children));
   const [currentIndex, setCurrentIndex] = useState<number>(0);
   const [waited, setWaited] = useState<boolean>(delay ? false : true);
 
-  function createRandomString(size: number): string {
-    return Array.from({ length: size })
-      .fill(undefined)
-      .map(() =>
-        randomChars.charAt(Math.floor(Math.random() * randomChars.length)),
-      )
-      .join("");
+  function createRandomString(text: string): string {
+    return Array.from(text).map((character) =>
+        character != ' ' ? randomChars.charAt(Math.floor(Math.random() * randomChars.length)) : ' ').join("");
   }
+
 
   function handleNextChar(index: number) {
     setTimeout(
@@ -31,7 +28,7 @@ export default function LoadingText({
         if (currentIndex <= children.length) {
           setText(
             children.substring(0, index) +
-              createRandomString(children.length - index),
+              createRandomString(children).substring(index),
           );
           setCurrentIndex(index + 1);
         }
