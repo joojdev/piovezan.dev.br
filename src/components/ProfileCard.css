@@ -10,15 +10,17 @@
   box-shadow: 0 5px 10px #33333350;
   border: 1px solid #bebebe;
   word-break: break-word;
+  min-width: 240px;
 }
 
 .card > img {
   width: 150px;
   height: 150px;
-  background: #ddddddc0;
+  background: #d7d7d76e;
   padding: 10px;
   border-radius: 100%;
   box-shadow: 0 5px 10px #33333350;
+  border: 1px solid #bfbfbf;
 }
 
 .card > .content {
