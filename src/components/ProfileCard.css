@@ -14,6 +14,7 @@
 
 .card > img {
   width: 150px;
+  height: 150px;
   background: #ddddddc0;
   padding: 10px;
   border-radius: 100%;
@@ -67,5 +68,6 @@ span.hoverable:hover {
 
   .card > img {
     width: 200px;
+    height: 200px;
   }
 }
