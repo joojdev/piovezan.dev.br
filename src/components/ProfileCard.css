@@ -58,7 +58,7 @@ span.hoverable:hover {
   text-decoration: underline;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 570px) {
   .card {
     flex-direction: column;
     text-align: center;
