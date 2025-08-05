@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 const randomChars =
-  "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%&*()-_=+£¢.,;/\\|?";
+  "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
 
 export default function LoadingText({
   children,
