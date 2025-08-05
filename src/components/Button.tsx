@@ -1,7 +1,17 @@
-export default function Button({ children, href }: { children: string, href: string }) {
+export default function Button({
+  children,
+  href,
+}: {
+  children: string;
+  href: string;
+}) {
   function handleClick() {
     window.open(href);
   }
 
-  return <button className="logoButton" onClick={handleClick}><img src={children} alt='button logo' /></button>
+  return (
+    <button className="logoButton" onClick={handleClick}>
+      <img src={children} alt="button logo" />
+    </button>
+  );
 }
