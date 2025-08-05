@@ -2,20 +2,27 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  /* font-family: "Kiwi Soda", Arial, Helvetica, sans-serif; */
+  font-family: "VCR OSD Mono", "Courier New", Courier, monospace;
+  user-select: none;
+  color: #333;
 }
 
 html,
 body,
 #root {
   height: 100%;
+  background-image: url("/wallpaper.jpg");
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
 }
 
 #root {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
-  background-image: url("/dancing-cat.gif");
-  background-attachment: fixed;
-  background-position: center center;
-  background-size: 35vw 25vw;
+  flex-direction: column;
+  gap: 30px;
+  padding: 30px;
 }

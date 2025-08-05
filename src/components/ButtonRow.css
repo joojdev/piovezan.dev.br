@@ -1,0 +1,24 @@
+.buttonRow {
+  display: flex;
+  gap: 30px;
+}
+
+.logoButton {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .2s;
+}
+
+.logoButton:hover {
+  background: #33333327;
+}
+
+.logoButton > img {
+  width: 70px;
+}
