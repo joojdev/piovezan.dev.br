@@ -1,6 +1,18 @@
 .buttonRow {
   display: flex;
   gap: 30px;
+  will-change: opacity;
+  animation: fade-in 3s forwards ease;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0%;
+  }
+
+  100% {
+    opacity: 100%;
+  }
 }
 
 .logoButton {

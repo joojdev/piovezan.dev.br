@@ -8,7 +8,7 @@ export default function ProfileCard() {
       <img src={profile} alt="profile image" draggable={false} />
       <div className="content">
         <h1>
-          <LoadingText delay={200}>joão vitor piovezan</LoadingText>
+          <LoadingText delay={200}>João Vitor Piovezan</LoadingText>
         </h1>
         <div className="titles">
           <p>
@@ -16,15 +16,15 @@ export default function ProfileCard() {
               delay={1200}
               href="https://portais.ifsp.edu.br/scl/index.php/cursos/62-ensino/1762-bacharelado-em-engenharia-de-software.html"
             >
-              bacharelando em engenharia de software
+              Bacharelando em Engenharia de Software
             </LoadingText>
           </p>
           <p>
             <LoadingText
-              delay={2200}
+              delay={1600}
               href="https://portais.ifsp.edu.br/scl/index.php/cursos/62-ensino/102-curso-tecnico-em-informatica-para-internet-integrado-ao-ensino-medio.html"
             >
-              técnico em informática para internet
+              Técnico em Informática para Internet
             </LoadingText>
           </p>
         </div>
