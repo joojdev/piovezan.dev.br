@@ -13,9 +13,7 @@ import {
 const rootRoute = createRootRoute({
   component: () => {
     return (
-      <>
-        <Outlet />
-      </>
+      <Outlet />
     );
   },
 });
