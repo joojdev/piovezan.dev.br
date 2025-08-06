@@ -17,10 +17,14 @@ export default function LoadingText({
   const [waited, setWaited] = useState<boolean>(delay ? false : true);
 
   function createRandomString(text: string): string {
-    return Array.from(text).map((character) =>
-        character != ' ' ? randomChars.charAt(Math.floor(Math.random() * randomChars.length)) : ' ').join("");
+    return Array.from(text)
+      .map((character) =>
+        character != " "
+          ? randomChars.charAt(Math.floor(Math.random() * randomChars.length))
+          : " ",
+      )
+      .join("");
   }
-
 
   function handleNextChar(index: number) {
     setTimeout(
