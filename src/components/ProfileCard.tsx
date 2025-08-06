@@ -8,7 +8,7 @@ export default function ProfileCard() {
       <img src={profile} alt="profile image" draggable={false} />
       <div className="content">
         <h1>
-          <LoadingText delay={200}>João Vitor Piovezan</LoadingText>
+          <LoadingText delay={500}>João Vitor Piovezan</LoadingText>
         </h1>
         <div className="titles">
           <p>
