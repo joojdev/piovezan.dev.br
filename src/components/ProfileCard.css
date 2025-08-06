@@ -27,6 +27,7 @@
   position: absolute;
   bottom: -20px;
   left: 0;
+  object-fit: contain;
 }
 
 .card > img.alien {
@@ -34,6 +35,7 @@
   bottom: -50px;
   right: -15px;
   width:  80px;
+  object-fit: contain;
 }
 
 .card > .content {
@@ -84,5 +86,14 @@ span.hoverable:hover {
   .card > img {
     width: 200px;
     height: 200px;
+  }
+
+  .card > img.saucer {
+    width: 120px;
+    bottom: -70px;
+  }
+
+  .card > img.alien {
+    bottom: -80px;
   }
 }
