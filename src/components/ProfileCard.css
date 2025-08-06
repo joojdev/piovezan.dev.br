@@ -10,9 +10,10 @@
   box-shadow: 0 5px 10px #33333350;
   border: 2px solid #bebebe;
   min-width: 240px;
+  position: relative;
 }
 
-.card > img {
+.card > img.profile {
   width: 150px;
   height: 150px;
   background: #d7d7d76e;
@@ -20,6 +21,19 @@
   border-radius: 100%;
   box-shadow: 0 5px 10px #33333350;
   border: 1px solid #bfbfbf;
+}
+
+.card > img.saucer {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+}
+
+.card > img.alien {
+  position: absolute;
+  bottom: -50px;
+  right: -15px;
+  width:  80px;
 }
 
 .card > .content {

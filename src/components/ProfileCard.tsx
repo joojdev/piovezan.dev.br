@@ -1,11 +1,15 @@
 import profile from "../assets/profile.png";
+import saucer from '../assets/saucer.webp';
+import alien from '../assets/walking-alien.gif';
 import LoadingText from "./LoadingText";
 import "./ProfileCard.css";
 
 export default function ProfileCard() {
   return (
     <div className="card">
-      <img src={profile} alt="profile image" draggable={false} />
+      <img src={alien} alt="walking alien" className="alien" draggable={false} />
+      <img src={saucer} alt="rotating saucer" className="saucer" draggable={false} />
+      <img src={profile} alt="profile image" className="profile" draggable={false} />
       <div className="content">
         <h1>
           <LoadingText delay={500}>João Vitor Piovezan</LoadingText>
