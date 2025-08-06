@@ -1,12 +1,17 @@
 import ProfileCard from "./components/ProfileCard";
-import ButtonRow from "./components/ButtonRow";
+import SocialMediaButtonRow from "./components/SocialMediaButtonRow";
+import FadeInComponent from "./components/FadeInComponent";
 import "./App.css";
 
 function App() {
   return (
     <>
-      <ProfileCard />
-      <ButtonRow />
+      <FadeInComponent>
+        <ProfileCard />
+      </FadeInComponent>
+      <FadeInComponent duration={3}>
+        <SocialMediaButtonRow />
+      </FadeInComponent>
     </>
   );
 }

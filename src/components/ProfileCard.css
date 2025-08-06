@@ -10,18 +10,6 @@
   box-shadow: 0 5px 10px #33333350;
   border: 2px solid #bebebe;
   min-width: 240px;
-  will-change: transform;
-  animation: fade-in 1s forwards ease;
-}
-
-@keyframes fade-in {
-    0% {
-    opacity: 0%;
-  }
-
-  100% {
-    opacity: 100%;
-  }
 }
 
 .card > img {

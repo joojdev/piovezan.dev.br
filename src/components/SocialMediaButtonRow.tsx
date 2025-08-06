@@ -2,9 +2,9 @@ import github from "../assets/github.svg";
 import linkedin from "../assets/linkedin.svg";
 import instagram from "../assets/instagram.svg";
 import Button from "./Button";
-import "./ButtonRow.css";
+import "./SocialMediaButtonRow.css";
 
-export default function ButtonRow() {
+export default function SocialMediaButtonRow() {
   return (
     <div className="buttonRow">
       <Button href="https://github.com/joojdev">{github}</Button>

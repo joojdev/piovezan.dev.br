@@ -33,7 +33,7 @@ export default function LoadingText({
           setCurrentIndex(index + 1);
         }
       },
-      Math.round(Math.random() * 100),
+      Math.round(Math.random() * 70),
     );
   }
 
