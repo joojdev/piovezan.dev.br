@@ -4,6 +4,10 @@ import FadeInComponent from "./components/FadeInComponent";
 import "./App.css";
 
 function App() {
+  function handleDownload() {
+    location.href = "/cv_ptbr.pdf";
+  }
+
   return (
     <>
       <FadeInComponent>
@@ -11,6 +15,11 @@ function App() {
       </FadeInComponent>
       <FadeInComponent duration={3}>
         <SocialMediaButtonRow />
+      </FadeInComponent>
+      <FadeInComponent duration={3}>
+        <button className="downloadButton" onClick={handleDownload}>
+          Baixar currículo
+        </button>
       </FadeInComponent>
     </>
   );

@@ -12,9 +12,7 @@ import {
 
 const rootRoute = createRootRoute({
   component: () => {
-    return (
-      <Outlet />
-    );
+    return <Outlet />;
   },
 });
 
