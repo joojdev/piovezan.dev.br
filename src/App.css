@@ -1,4 +1,4 @@
-.downloadButton {
+.previewButton {
   padding: 15px 30px;
   border: 4px solid;
   border-color: #e9e9e9 #969696 #969696 #e9e9e9;
@@ -8,10 +8,10 @@
   margin-bottom: 45px;
 }
 
-.downloadButton:hover {
+.previewButton:hover {
   background: #dadada;
 }
 
-.downloadButton:active {
+.previewButton:active {
   border-color: #969696 #e9e9e9 #e9e9e9 #969696;
 }

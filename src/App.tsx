@@ -4,8 +4,8 @@ import FadeInComponent from "./components/FadeInComponent";
 import "./App.css";
 
 function App() {
-  function handleDownload() {
-    location.href = "/cv_ptbr.pdf";
+  function handlePreview() {
+    window.open("/cv_ptbr.pdf");
   }
 
   return (
@@ -17,8 +17,8 @@ function App() {
         <SocialMediaButtonRow />
       </FadeInComponent>
       <FadeInComponent duration={3}>
-        <button className="downloadButton" onClick={handleDownload}>
-          Baixar currículo
+        <button className="previewButton" onClick={handlePreview}>
+          Ver currículo
         </button>
       </FadeInComponent>
     </>
