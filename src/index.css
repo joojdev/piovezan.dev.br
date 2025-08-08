@@ -12,6 +12,9 @@ html,
 body,
 #root {
   height: 100%;
+}
+
+body {
   background-image: url("/wallpaper.jpg");
   background-attachment: fixed;
   background-position: center center;
@@ -25,4 +28,14 @@ body,
   flex-direction: column;
   gap: 30px;
   padding: 30px;
+}
+
+.backdropFilter {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  backdrop-filter: brightness(50%);
+  z-index: -1;
 }
