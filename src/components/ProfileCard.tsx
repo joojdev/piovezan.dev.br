@@ -1,5 +1,5 @@
-import profile from "../assets/profile.png";
-import "./ProfileCard.css";
+import profile from '../assets/profile.png'
+import './ProfileCard.css'
 
 export default function ProfileCard() {
   return (
@@ -26,5 +26,5 @@ export default function ProfileCard() {
         </div>
       </div>
     </div>
-  );
+  )
 }

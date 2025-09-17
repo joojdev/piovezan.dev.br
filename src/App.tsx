@@ -1,10 +1,10 @@
-import ProfileCard from "./components/ProfileCard";
-import SocialMediaButtonRow from "./components/SocialMediaButtonRow";
-import "./App.css";
+import ProfileCard from './components/ProfileCard'
+import SocialMediaButtonRow from './components/SocialMediaButtonRow'
+import './App.css'
 
 function App() {
   function handlePreview() {
-    window.open("/cv_ptbr.pdf");
+    window.open('/cv_ptbr.pdf')
   }
 
   return (
@@ -17,7 +17,7 @@ function App() {
       <div className="bottomMargin"></div>
       <div className="backdropFilter"></div>
     </>
-  );
+  )
 }
 
-export default App;
+export default App
