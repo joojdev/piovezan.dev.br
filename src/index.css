@@ -36,6 +36,6 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  backdrop-filter: brightness(50%);
+  backdrop-filter: brightness(100%);
   z-index: -1;
 }
