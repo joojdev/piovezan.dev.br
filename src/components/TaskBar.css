@@ -1,0 +1,9 @@
+.task-bar {
+  background: #c3c3c3;
+  width: 100vw;
+  height: 50px;
+  bottom: 0;
+  position: fixed;
+  border-top: 4px solid white;
+  display: flex;
+}

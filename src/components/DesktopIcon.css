@@ -1,0 +1,27 @@
+.desktopIcon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  /* height: 100px; */
+  cursor: pointer;
+  margin: 10px;
+  padding: 10px;
+  gap: 10px;
+}
+
+.desktopIcon:hover {
+  background: rgba(255, 255, 255, 0.247);
+}
+
+.desktopIcon>img {
+  width: 55px;
+}
+
+.desktopIcon>span {
+  text-align: center;
+  font-family: 'VCR OSD MONO';
+  word-break: break-all;
+  user-select: none;
+}

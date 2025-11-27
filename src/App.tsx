@@ -1,22 +1,22 @@
-import ProfileCard from './components/ProfileCard'
-import SocialMediaButtonRow from './components/SocialMediaButtonRow'
 import './App.css'
+import DesktopIcon from './components/DesktopIcon'
+import TaskBar from './components/TaskBar'
+import document from './assets/document_icon.png'
 
 function App() {
-  function handlePreview() {
+  function handleClickCV() {
     window.open('/cv_ptbr.pdf')
   }
 
   return (
-    <>
-      <ProfileCard />
-      <SocialMediaButtonRow />
-      <button className="previewButton" onClick={handlePreview}>
-        Ver currículo
-      </button>
-      <div className="bottomMargin"></div>
-      <div className="backdropFilter"></div>
-    </>
+    <div className="background">
+      <DesktopIcon
+        icon={document}
+        name="curriculum_vitae.pdf"
+        onclick={handleClickCV}
+      />
+      <TaskBar />
+    </div>
   )
 }
 
