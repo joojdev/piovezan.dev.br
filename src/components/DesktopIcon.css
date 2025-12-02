@@ -17,11 +17,11 @@
 
 .desktopIcon>img {
   width: 55px;
+  image-rendering: crisp-edges;
 }
 
 .desktopIcon>span {
   text-align: center;
-  font-family: 'VCR OSD MONO';
   word-break: break-all;
   user-select: none;
 }

@@ -6,4 +6,6 @@
   position: fixed;
   border-top: 4px solid white;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
